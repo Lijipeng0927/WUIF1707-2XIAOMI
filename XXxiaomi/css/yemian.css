@@ -1,0 +1,366 @@
+/*
+* @Author: lenovo
+* @Date:   2017-08-29 11:27:52
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-09-03 10:11:16
+*/
+#head{
+	width: 100%;
+	height: 40px;
+	background-color: #333;
+}
+.head-neikuan{
+	width:  1226px;
+	height: 40px;
+	margin: 0 auto;
+}
+.head-left{
+	height: 40px;
+	background-color: #333;
+	float: left;
+}
+.head-wenzi{
+	float: left;
+	line-height: 40px;
+	font-size: 12px;
+	color: #b0b0b0;
+	margin-left: 7px;
+}
+.head-wenzi1{
+	margin-left: 0;
+}
+.head-right{
+	height: 40px;
+	background-color:#333;
+	float: right;
+}
+.head-wenzi2{
+	margin-right: 25px;
+}
+.gouwuche{
+	width: 103px;
+	height: 40px;
+	background-color: skyblue;
+	float: left;
+	margin-left: 10px;
+	padding-left: 17px;
+	font-size: 12px;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 401021 */
+  src: url('http://at.alicdn.com/t/font_401021_xi3o33ymnoob6gvi.eot');
+  src: url('http://at.alicdn.com/t/font_401021_xi3o33ymnoob6gvi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401021_xi3o33ymnoob6gvi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401021_xi3o33ymnoob6gvi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401021_xi3o33ymnoob6gvi.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.gouwuche i{
+	line-height: 40px;
+}
+.head-wenzi a{
+	color: #333;
+	cursor: auto;
+}
+.head-wenzi a:link{  /* 表示有链接地址 */
+	color: gold;
+}
+.head-wenzi a:visited{   /* 访问过地址 */
+	color: hsl(300, 100%, 90%);
+}
+.head-wenzi a:hover{    /* 鼠标点击时效果 */
+	color: orangered;
+}
+.head-wenzi a:active{   /* 点击瞬间效果 */
+	color: yellowgreen;
+}
+#daohang{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+.daohang-neikuan{
+	width: 1226px;
+	background-color: pink;
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.daohang-left{
+	height: 55px;
+	width: 55px;
+	background-color: black;
+	float: left;
+	margin-top: 22.5px;
+	background-image: url('../img/logo_03.png');
+	background-size: 100% 100%;
+}
+
+.daohang-center{
+	height: 100px;
+	background-color: blue;
+	margin-left: 189px;
+}
+.daohang-wenzi{
+	float: left;
+	line-height: 100px;
+	font-size: 15px;
+	color: black;
+	margin-left: 20px;
+}
+.daohang-wenzi a:link{  /* 表示有链接地址 */
+	color: gold;
+}
+.daohang-wenzi a:visited{   /* 访问过地址 */
+	color: hsl(300, 100%, 90%);
+}
+.daohang-wenzi a:hover{    /* 鼠标点击时效果 */
+	color: orangered;
+}
+.daohang-wenzi a:active{   /* 点击瞬间效果 */
+	color: yellowgreen;
+}
+.daohang-right{
+	height: 100px;
+	background-color: #fff;
+	float: right;
+}
+.box{
+	width: 296px;
+	height: 50px;
+	background-color: #eeeeee;
+	margin-top: 25px;
+}
+#botton{
+	width: 1226px;
+	height: 644px;
+	background-color: yellowgreen;
+	margin: 0 auto;
+	position: relative;
+}
+.botton-list{
+	width: 1226px;
+	height: 460px;
+	background-color: #97fffb;
+	margin: 0 auto;
+}
+.list-box{
+	width: 234px;
+	height: 460px;
+	background-color: rgba(255, 96, 0, 0.5);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.box-wenzi1{
+	height: 42px;
+	background-color: #ecabff;
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 42px;
+	padding-left: 30px;
+	color: #000;
+	position: relative;
+}
+.box-wenzi2{
+	margin-top: 0px;
+}
+.iconfont2{
+	width: 16.36px;
+	height: 15.45px;
+	right: 20px;
+	position: absolute;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 402658 */
+  src: url('http://at.alicdn.com/t/font_402658_igvh1m67qdfpf1or.eot');
+  src: url('http://at.alicdn.com/t/font_402658_igvh1m67qdfpf1or.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_402658_igvh1m67qdfpf1or.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_402658_igvh1m67qdfpf1or.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_402658_igvh1m67qdfpf1or.svg#iconfont') format('svg');
+}
+.iconfont2 {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.botton-di{
+	margin-top: 14px;
+	width: 1226px;
+	height: 170px;
+	background-color: #e787ff;
+}
+.di-1{
+	width: 234px;
+	height: 170px;
+	background-color: #525252;
+	float: left;
+}
+.di-2{
+	width: 316px;
+	height: 170px;
+	background-color: #525252;
+	margin-left: 15px;
+	float: left;
+}
+.di-3{
+	width: 316px;
+	height: 170px;
+	background-color: #525252;
+	margin-left: 15px;
+	float: left;
+}
+.di-4{
+	width: 316px;
+	height: 170px;
+	background-color: #525252;
+	margin-left: 14px;
+	float: left;
+}
+#danpin{
+	width: 100%;
+	height: 438px;
+	background-color:#8affcf;
+	margin-top: 28px;
+}
+.danpin-top{
+	width: 1226px;
+	height: 58px;
+	background-color: #2f0043;
+	margin: 0 auto;
+}
+.top-left{
+	line-height: 58px;
+	color: #faefff;
+	font-size: 22px;
+	float: left;
+}
+.top-right1{
+	width: 35.33px;
+	height: 23.33px;
+	background-color: #fff;
+	float: right;
+	margin-top: 25px;
+}
+.top-right2{
+	width: 35.33px;
+	height: 23.33px;
+	background-color: #fff;
+	float: right;
+	margin-top: 25px;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 402658 */
+  src: url('http://at.alicdn.com/t/font_402658_ccrjnmmb6atnjyvi.eot');
+  src: url('http://at.alicdn.com/t/font_402658_ccrjnmmb6atnjyvi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_402658_ccrjnmmb6atnjyvi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_402658_ccrjnmmb6atnjyvi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_402658_ccrjnmmb6atnjyvi.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.iconfont{
+	padding: 3.48px 9.48px;
+	line-height: 23.33px;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 402658 */
+  src: url('http://at.alicdn.com/t/font_402658_ml4ae57ujdsll3di.eot');
+  src: url('http://at.alicdn.com/t/font_402658_ml4ae57ujdsll3di.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_402658_ml4ae57ujdsll3di.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_402658_ml4ae57ujdsll3di.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_402658_ml4ae57ujdsll3di.svg#iconfont') format('svg');
+}
+.iconfont1 {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+} 
+.iconfont1{
+	padding: 3.48px 9.48px;
+	line-height: 23.33px;
+}  
+.danpin-botton{
+	width: 1226px;
+	height: 340px;
+	background-color: #001f46;
+	margin: 0 auto;
+}
+.bottom-list1{
+	width: 234px;
+	height: 339px;
+	background-color: #001eff;
+	margin-right: 14px;
+	float: left;
+	border-top: 1px solid red;
+}
+.tupian1{
+	width: 160px;
+	height: 160px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 39px;
+}
+.list1-wenzi1{
+	width: 194px;
+	height: 21px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 40px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 21px;
+}
+.list1-wenzi2{
+	width: 194px;
+	height: 18px;
+	background-color: #fecfff;
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+	line-height: 18px;
+}
+.list1-wenzi3{
+	width: 194px;
+	height: 21px;
+	background-color: #cfcfcf;
+	margin: 0 auto;
+	font-size: 14px;
+	color: red;
+	text-align: center;
+	padding-top: 7px;
+}
+.bottom-list2{
+	margin-right: 0;
+	border-top-color: yellow;
+}
+.bottom-list3{
+	border-top-color: red;
+}
+.bottom-list4{
+	border-top-color: #12ff00;
+}
+.bottom-list5{
+	border-top-color: #00ffe4;
+}
+.bottom-list6{
+	border-top-color: #ff8a00;
+}
